@@ -1,16 +1,18 @@
-import { useEffect, useState } from "react";
-import { useParams, useLocation } from "react-router-dom";
+"use client";
 
-import { allProjects, projectDescriptions } from "../../data/allProjects";
-import "./projectDetails.css";
-import { ProjectDetailsRevisedLook } from "./ProjectDetailsRevisedLook/ProjectDetailsRevisedLook";
-import OneMockupView from "./OneMockup/OneMockupView";
-import TwoMockupView from "./TwoMockup/TwoMockupView";
-import ThreeMockupView from "./ThreeMockup/ThreeMockupView";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
+
+import { allProjects, projectDescriptions } from "@/constants/all-projects";
+import styles from "./projectDetails.module.css";
+import { ProjectIntro } from "./project-intro/projectIntro";
+import OneMockupView from "./one-mockup/oneMockup";
+import TwoMockupView from "./two-mockup/twoMockup";
+import ThreeMockupView from "./three-mockup/threeMockup";
 
 const ProjectDetails = () => {
-  let { projectId } = useParams();
-  const { pathname } = useLocation();
+  const router = useRouter();
+  const { projectId } = router.query;
 
   const [slogan, setSlogan] = useState("");
   const [challenge, setChallenge] = useState("");
@@ -49,8 +51,8 @@ const ProjectDetails = () => {
   }
 
   return (
-    <div section="project-details-section">
-      <ProjectDetailsRevisedLook
+    <div section="project-details-section" className={styles.projectDetails}>
+      <ProjectIntro
         backgroundImage={project.backgroundImage}
         title={project.name}
         tags={project.stack}
@@ -99,27 +101,27 @@ const ProjectDetails = () => {
         </>
       )}
       {/* Project Tech Description */}
-      <div className="project-tech">
-        <div className="tech-details-content">
-          <div className="tech-title-container">
-            <h1 className="tech-title">
+      <div className={styles.projectTech}>
+        <div className={styles.techDetailsContent}>
+          <div className={styles.techTitleContainer}>
+            <h1 className={styles.techTitle}>
               Lets talk
-              <span className="title-yellow"> Tech!</span>
+              <span className={styles.techYellow}> Tech!</span>
             </h1>
           </div>
-          <div className="tech-call-to-action">
+          <div className={styles.callToAction}>
             <p>
               If you have any questions regarding this project, feel free to
               reach me directly or check out the GitHub page!
             </p>
           </div>
-          <div className="call-to-action-button-container">
+          <div className={styles.callToActionBtnContainer}>
             <a
               href="mailto:rasmus.henriksen@live.dk"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button type="button" className="get-in-touch-btn">
+              <button type="button" className={styles.getInTouchBtn}>
                 Get in touch
               </button>
             </a>
@@ -128,7 +130,7 @@ const ProjectDetails = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button type="button" className="get-in-touch-btn">
+              <button type="button" className={styles.getInTouchBtn}>
                 GitHub
               </button>
             </a>

@@ -40,7 +40,7 @@ const Navbar = () => {
         <NavLink to="experience">Experience</NavLink>
         <NavLink to="skills">Skills</NavLink>
         <NavLink to="portfolio">Portfolio</NavLink>
-        <NavLink to="blog">Articles</NavLink>
+        <NavLink to="blog">Blog</NavLink>
       </div>
       <button className={styles.hamburgerBtn} onClick={toggleMobileMenu}>
         <Image src={MenuIcon} alt="Menu" className={styles.menuIcon} />

@@ -4,7 +4,7 @@
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
-    margin-bottom: var(--page-margin-bottom);
+    margin-bottom: 50em;
   }
 
   .experienceTextContainer {
@@ -216,7 +216,6 @@
       flex-direction: column;
       height: 100vh;
       width: 100%;
-      margin-bottom: 30em;
     }
   
     .experienceTextContainer {
@@ -288,7 +287,7 @@
       flex-direction: column;
       height: 100%;
       width: 100vw;
-      margin-bottom: 20em;
+     
     }
   
     .experienceTextContainer {
@@ -430,7 +429,7 @@
       flex-direction: column;
       height: 100%;
       width: 100%;
-      margin-bottom: 20em;
+  
     }
   
     .experienceTextContainer {

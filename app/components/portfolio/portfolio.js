@@ -38,7 +38,7 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
-      <Link href={`/all-projects`}>
+      <Link href={`/allProjectsPage`}>
         <button type="button" className={styles.allProjectsContainer}>
           See more projects
         </button>

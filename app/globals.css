@@ -8,7 +8,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 :root {
   --portfolio-yellow: yellow; 
   --portfolio-purple: #9237a9; 
-  --page-margin-bottom: 20vh;
+  --page-margin-bottom: 20rem;
   --section-h1-fs: 5rem;
   --section-h2-fs: 3rem;
   --section-h3-fs: 2rem;
