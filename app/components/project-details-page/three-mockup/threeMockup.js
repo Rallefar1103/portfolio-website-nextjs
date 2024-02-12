@@ -4,17 +4,17 @@ const ThreeMockupView = ({ extraText, imageThree }) => {
   return (
     <>
       <div className={styles.projectMockupsThree}>
-        <div className={styles.left}>
-          <div className={styles.mockupTextContainer}>
+        <div className={styles.mockupsThreeLeft}>
+          <div className={styles.mockupsThreeTextContainer}>
             <h2>{extraText}</h2>
           </div>
         </div>
 
-        <div className={styles.right}>
+        <div className={styles.mockupsThreeRight}>
           <Image
             src={imageThree}
             alt="mockup-img"
-            className={styles.mockupImage}
+            className={styles.mockupThreeImage}
           />
         </div>
       </div>

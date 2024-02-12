@@ -1,12 +1,18 @@
 "use client";
+import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import styles from "./projectIntro.module.css";
 import Image from "next/image";
 
 export const BackButton = () => {
+  const router = useRouter();
+
+  const handleBack = () => {
+    router.back();
+  };
   return (
-    <button onClick={() => {}} className={styles.bacbButton}>
+    <button onClick={handleBack} className={styles.backButton}>
       <FontAwesomeIcon icon={faChevronLeft} /> Back
     </button>
   );

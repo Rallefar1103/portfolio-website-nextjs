@@ -5,7 +5,7 @@ const TwoMockupView = ({ solution, solutionDescription, imageTwo }) => {
   return (
     <>
       <div className={styles.projectMockupsTwo}>
-        <div className={styles.left}>
+        <div className={styles.mockupsTwoLeft}>
           <Image
             src={imageTwo}
             alt="mockup-img"
@@ -13,8 +13,8 @@ const TwoMockupView = ({ solution, solutionDescription, imageTwo }) => {
           />
         </div>
 
-        <div className={styles.right}>
-          <div className={styles.mockupTextContainer}>
+        <div className={styles.mockupsTwoRight}>
+          <div className={styles.mockupsTwoTextContainer}>
             <p className={styles.theSolution}>THE SOLUTION</p>
             <h2>{solution}</h2>
             <p className={styles.solutionDescribed}>{solutionDescription}</p>

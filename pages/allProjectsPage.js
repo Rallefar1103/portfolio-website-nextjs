@@ -1,5 +1,5 @@
 "use client";
-
+import "@/app/globals.css";
 import styles from "./allProjectsPage.module.css";
 import { allProjects } from "@/constants/all-projects";
 import IntroProfilePic from "@/public/images/intro/profile.jpeg";

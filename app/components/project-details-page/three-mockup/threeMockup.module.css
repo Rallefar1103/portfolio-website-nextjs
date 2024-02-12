@@ -8,7 +8,7 @@
   width: 100%;
   }
 
-  .left {
+  .mockupsThreeLeft {
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -17,7 +17,7 @@
     width: 50%;
   }
   
-  .right {
+  .mockupsThreeRight {
     width: 50%;
     height: 90%;
     display: flex;
@@ -26,17 +26,17 @@
     justify-content: center;
   }
   
-  .mockupTextContainer {
+  .mockupsThreeTextContainer {
     border-radius: 20px;
     width: 60%;
   }
 
-  .mockupTextContainer h2 {
+  .mockupsThreeTextContainer h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
   }
 
-  .mockupImage {
+  .mockupThreeImage{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -55,7 +55,7 @@
       margin-top: 2rem;
     }
   
-    .left {
+    .mockupsThreeLeft {
       display: flex;
       flex-direction: column;
       align-items: center; 
@@ -64,7 +64,7 @@
       width: 100%;
     }
     
-    .right {
+    .mockupsThreeRight {
       display: flex;
       flex-direction: column;
       align-items: center; 
@@ -74,19 +74,19 @@
       margin-bottom: 2rem;
     }
     
-    .mockupTextContainer {
+    .mockupsThreeTextContainer {
       padding: 2rem;
       margin-bottom: 2rem; 
       margin-left: 2rem;
       width: 80%;
     }
   
-    .mockupTextContainer h2 {
+    .mockupsThreeTextContainer h2 {
       font-size: calc(2rem + 1.4vw);
       margin-bottom: 2rem;
     }
   
-    .mockupImage {
+    .mockupThreeImage{
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -107,7 +107,7 @@
       margin-top: 2rem;
     }
   
-    .left {
+    .mockupsThreeLeft {
       display: flex;
       flex-direction: column;
       align-items: center; 
@@ -116,7 +116,7 @@
       width: 100%;
     }
     
-    .right {
+    .mockupsThreeRight {
       display: flex;
       flex-direction: column;
       align-items: center; 
@@ -126,19 +126,19 @@
       margin-bottom: 2rem;
     }
     
-    .mockupTextContainer {
+    .mockupsThreeTextContainer {
       padding: 2rem;
       margin-bottom: 2rem; 
       margin-left: 2rem;
       width: 80%;
     }
   
-    .mockupTextContainer h2 {
+    .mockupsThreeTextContainer h2 {
       font-size: calc(1.3rem + 1.4vw);
       margin-bottom: 0;
     }
   
-    .mockupImage {
+    .mockupThreeImage{
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -158,7 +158,7 @@
       height: 100vh;
     }
   
-    .left {
+    .mockupsThreeLeft {
       display: flex;
       flex-direction: column;
       align-items: center; 
@@ -167,7 +167,7 @@
       width: 100vw;
     }
     
-    .right {
+    .mockupsThreeRight {
       width: 95vw;
       height: 60vh;
       display: flex;
@@ -178,7 +178,7 @@
     
     }
     
-    .mockupTextContainer {
+    .mockupsThreeTextContainer {
       border-radius: 20px;
       padding: 2vw;
       margin-bottom: 2vw; 
@@ -186,11 +186,11 @@
       width: 65vw;
     }
   
-    .mockupTextContainer h2 {
+    .mockupsThreeTextContainer h2 {
       font-size: 5vw;
     }
   
-    .mockupImage {
+    .mockupThreeImage{
       width: 100%;
       height: 60vh;
       object-fit: cover;

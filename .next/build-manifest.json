@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/allProjectsPage": [
+    "/projects/[projectId]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/allProjectsPage.js"
+      "static/chunks/pages/projects/[projectId].js"
     ]
   },
   "ampFirstPages": []

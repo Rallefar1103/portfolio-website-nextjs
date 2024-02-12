@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import LevelUp from "../../../public/images/experiences/level-up.png";
-import { experiences } from "../../../constants/all-experiences";
+import { experiences } from "@/constants/all-experiences";
 import styles from "./experience.module.css";
 import Image from "next/image";
 
@@ -34,26 +34,13 @@ const useMediaQuery = (query) => {
 
 const ExperienceCard = ({ Company }) => {
   const experience = experiences.find((exp) => exp.company === Company);
-  const [company, setCompany] = useState("");
-  const [website, setWebsite] = useState("");
-  const [timeFrame, setTimeFrame] = useState("");
-  const [responsibilities, setResponsibilities] = useState("");
-  const [title, setTitle] = useState("");
 
-  useEffect(() => {
-    setCompany(experience.company);
-    setWebsite(experience.website);
-    setTimeFrame(experience.timeFrame);
-    setResponsibilities(experience.responsibilities);
-    setTitle(experience.title);
-  }, [
-    experience.company,
-    experience.website,
-    experience.logo,
-    experience.timeFrame,
-    experience.responsibilities,
-    experience.title,
-  ]);
+  const [company, setCompany] = useState(experience.company);
+  const [timeFrame, setTimeFrame] = useState(experience.timeFrame);
+  const [responsibilities, setResponsibilities] = useState(
+    experience.responsibilities
+  );
+  const [title, setTitle] = useState(experience.title);
 
   const isNarrowScreen = useMediaQuery("(max-width: 1000px)");
 
