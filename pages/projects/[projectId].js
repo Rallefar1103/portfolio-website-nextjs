@@ -11,7 +11,7 @@ import TwoMockupView from "@/app/components/project-details-page/two-mockup/twoM
 import ThreeMockupView from "@/app/components/project-details-page/three-mockup/threeMockup";
 
 export async function getStaticPaths() {
-  const paths = allProjects.map((project) => ({
+  const paths = allProjects.slice(0, 6).map((project) => ({
     params: { projectId: project.id },
   }));
 
