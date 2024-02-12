@@ -1,0 +1,283 @@
+.aboutContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 20rem;
+  }
+  
+  .aboutLeft{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+  }
+
+  .aboutImagesContainer {
+    position: relative; 
+    min-width: 80%;
+    width: 70%;
+    height: 60%;
+    margin: auto;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .abstractImage {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    top: 7%;
+    right: 8%;
+    object-fit: contain; 
+    z-index: 0; 
+    filter: drop-shadow(0px 2px 4px rgb(226, 225, 219))
+  }
+  
+  .aboutProfilePicture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0px 2px 5px rgb(226, 225, 219))
+  }
+  
+  .aboutRight {
+    width: 50%;
+    height: 100%;   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .aboutTextContainer {
+    border-radius: 20px;
+    padding: 2vw;
+    width: 90%;
+  }
+
+
+  .aboutTextContainer h2 {
+    font-size: calc(3rem + 1.5vw); /* Responsive font size */
+  }
+  
+  .aboutMeYellow {
+    color: yellow;
+  }
+  
+  .aboutTextContainer p {
+    font-size: calc(1.2rem + 0.5vw); /* Responsive font size */
+    font-weight: 300;
+  }
+  
+  .forwardYellow {
+    color: yellow;
+    font-size: calc(1.2rem + 0.6vw); /* Responsive font size */
+    font-weight: 500;
+  }
+  
+
+  
+  @media (max-width: 768px){
+    .aboutContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+    }
+    
+    .aboutLeft{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      height: 50%;
+      width: 100%;
+    }
+
+    .aboutImagesContainer {
+      position: relative; 
+      min-width: 80%;
+      width: 100%;
+      height: 100%;
+      margin: auto;  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .abstractImage {
+      position: absolute;
+      width: 80%; 
+      height: 80%;
+      left: 5%;
+      top: 20%;
+      object-fit: cover; 
+      z-index: 0; 
+      align-items: center;
+      justify-content: center;
+      filter: drop-shadow(0px 2px 4px rgb(226, 225, 219))
+    }
+    
+    .aboutProfilePicture {
+      position: relative;
+      width: 90%;
+      height: 95%;
+      margin-left: 2vw;
+      object-fit: cover;
+      filter: drop-shadow(0px 2px 5px rgb(226, 225, 219))
+    }
+    
+    .aboutRight {
+      width: 100%;
+      height: 40%;   
+      top: -5%;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding-right: 1vw;
+    }
+  
+    .aboutRight h2 {
+      font-size: 10vw;
+      margin-bottom: 0.5vh;
+    }
+  
+    .aboutMeYellow {
+      color: yellow;
+      
+    }
+  
+    .aboutRight p {
+      font-size: 3.5vw; 
+      font-weight: 300;
+      padding-left: 3vw;
+    }
+  
+    .forwardYellow {
+      color: yellow;
+      font-size: 4.2vw;
+      font-weight: 500;
+    }
+    
+    .aboutTextContainer {
+      border-radius: 20px;
+      padding: 2vw;
+      width: 100%;
+      height: 100%;
+      padding: 5vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 425px){
+    .aboutContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      margin-bottom: 0;
+    }
+    
+    .aboutLeft{
+      height: 40%;
+      width: 100%;
+    }
+
+    .aboutImagesContainer {
+      position: relative; 
+      min-width: 80%;
+      width: 100%;
+      height: 100%;
+      margin: auto;  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .abstractImage {
+      position: absolute;
+      width: 100%; 
+      height: 60%;
+      left: -8%;
+      top: 20%;
+      object-fit: cover; 
+      z-index: 0; 
+      align-items: center;
+      justify-content: center;
+      filter: drop-shadow(0px 2px 4px rgb(226, 225, 219))
+    }
+    
+    .aboutProfilePicture {
+      position: relative;
+      width: 80%;
+      height: 80%;
+      margin-left: 2vw;
+      object-fit: cover;
+      filter: drop-shadow(0px 2px 5px rgb(226, 225, 219))
+    }
+    
+    .aboutRight {
+      width: 100%;
+      height: 50%;   
+      top: -5%;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding-right: 1vw;
+    }
+  
+    .aboutRight h2 {
+      font-size: 12vw;
+      margin-bottom: 0.5vh;
+    }
+  
+    .aboutMeYellow {
+      color: yellow;
+      
+    }
+  
+    .aboutRight p {
+      font-size: 4.4vw; 
+      font-weight: 300;
+      padding-left: 3vw;
+    }
+  
+    .forwardYellow {
+      color: yellow;
+      font-size: 4.8vw;
+      font-weight: 500;
+    }
+    
+    .aboutTextContainer {
+      border-radius: 20px;
+      padding: 2vw;
+      width: 100%;
+      height: 100%;
+      padding: 5vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  

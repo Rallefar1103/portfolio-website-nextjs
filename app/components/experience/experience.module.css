@@ -1,0 +1,661 @@
+.experienceContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: 30rem;
+  }
+
+  .experienceTextContainer {
+    padding: 1.5rem;
+    width: 100%;
+  }
+
+  .leftRightContainer {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align items to the start */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+
+.experienceLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    min-height: 100%;
+    width: 60%;
+    min-width: 40%;
+   
+  }
+  
+  .experienceRight {
+    width: 40%;
+    max-width: 40%;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+ 
+  .experienceYellow {
+    color: yellow;
+  }
+
+  .experienceTextContainer h2 {
+    font-size: calc(5rem + 1vw);
+  }
+
+  .levelUpImageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    max-height: 70vh;
+  }
+
+  .levelUpImage {
+    width: 100%; 
+    height: 100%; 
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain; 
+    filter: drop-shadow(0px 2px 5px rgb(226, 225, 219));
+  } 
+  
+  
+  
+  /* Experience Card */
+  .experienceCard {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+    margin-bottom: 1rem; 
+    background: transparent;
+  
+  }
+
+  .cardLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 20%;
+    min-height: 100%;
+    padding-left: 2rem;
+  }
+
+  .cardLeft p {
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 200;
+  }
+
+
+  .cardRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .companyRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.2rem;
+  }
+
+  .companyRow h2 {
+    font-size: calc(2rem + 1.2vw);
+    font-weight: 800;
+    color: yellow;
+    margin-right: 2rem;
+  }
+
+  .companyRoleContainer {
+    height: 100%;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0.5%;
+  }
+
+  .companyRoleContainer h3 {
+    font-size: calc(0.8rem + 1.2vw);
+    font-weight: 500;
+   
+  }
+
+  .companyWebsiteContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1%;
+  }
+
+  .companyWebsiteContainer p {
+    font-size: calc(1.2rem + 0.5vw); /* Responsive font size */
+    color: rgb(140, 84, 251);
+  }
+
+  .reponsibility {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .responsibilityContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .responsibilityContainer p {
+    font-size: calc(1.2rem + 0.5vw); /* Responsive font size */
+    font-weight: 300;
+  }
+
+
+  .techTags {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .techTagContainer {
+    border:  1px solid #9237a9;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 20px;
+    margin-right: 1.4rem;
+    box-shadow: 0 0 0.6rem #2E1E41;
+    width: 12rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .techTagContainer p {
+    font-size: calc(0.4rem + 0.5vw); /* Responsive font size */
+    color: yellow;
+    font-weight: 500;
+  }
+
+
+  @media (max-width: 2030px) {
+    .techTags {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 2rem;
+      width: 100%; 
+      margin: 2 auto;
+    }
+  
+  }
+
+
+  @media (max-width: 1760px) {
+    .experienceContainer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      width: 100%;
+      margin-bottom: 30rem;
+    }
+  
+    .experienceTextContainer {
+      padding: 1.5rem;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .experienceTextContainer h2 {
+      font-size: 4.5vw;
+    }
+  
+    .leftRightContainer {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  
+  
+  .experienceLeft {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: flex-start;
+      height: 100%;
+      width: 100%;
+    }
+    
+    .experienceRight {
+      display: none;
+    }
+  
+    .experienceYellow {
+      color: yellow;
+    }
+
+    .techTagContainer p {
+      font-size: calc(0.6rem + 0.5vw); /* Responsive font size */
+      color: yellow;
+      font-weight: 500;
+    }
+
+    .companyRoleContainer {
+      height: 100%;
+      margin-right: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-bottom: 0%;
+      padding-top: 0.5%;
+    }
+  
+    .companyRoleContainer h3 {
+      font-size: calc(0.8rem + 1.2vw);
+      font-weight: 500;
+      
+    }
+  
+    .companyWebsiteContainer{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 1%;
+      padding-bottom: 0%;
+    }
+  
+    .companyWebsiteContainer p {
+      font-size: calc(1.2rem + 0.5vw); /* Responsive font size */
+      color: rgb(140, 84, 251);
+    }
+
+  }
+
+
+
+  @media (max-width: 1000px) {
+    .experienceContainer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      width: 100vw;
+      margin-bottom: 20rem;
+    }
+  
+    .experienceTextContainer {
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .experienceTextContainer h2 {
+      font-size: 7.5vw;
+    }
+  
+    .leftRightContainer {
+      height: 100%;
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  
+  
+  .experienceLeft {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+      height: 100%;
+      width: 100vw;
+      padding-left: 2vw;
+    }
+    
+    .experienceRight {
+      display: none;
+    }
+  
+    .experienceYellow {
+      color: yellow;
+    }
+
+    .experienceCard {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+      padding-top: 1rem; 
+      padding-bottom: 1rem; 
+      margin-bottom: 1rem; 
+      background: transparent;
+    }
+  
+    .cardRight {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .companyRow {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: flex-start;
+      width: 100%;
+      height: auto;
+      margin-bottom: 1.2rem;
+    }
+  
+    .companyRow h2 {
+      font-size: calc(2rem + 1.2vw);
+      font-weight: 800;
+      color: yellow;
+      margin-right: 2rem;
+    }
+  
+    .companyRoleContainer {
+      height: 100%;
+      margin-right: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .companyRoleContainer h3 {
+      font-size: calc(1rem + 1.2vw);
+      font-weight: 500;
+      padding-bottom: 0.5vh;
+    }
+  
+    .companyWebsiteContainer{
+     display: none;
+    }
+  
+    .companyWebsiteContainer p {
+     display: none;
+    }
+
+    .timeFrameContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+
+
+    .timeFrame {
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+  
+    .reponsibility {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+    }
+  
+    .responsibilityContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+    }
+  
+    .responsibilityContainer p {
+      font-size: calc(1.2rem + 0.5vw); /* Responsive font size */
+      font-weight: 300;
+    }
+  
+  
+    .techTags {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 2rem;
+      width: 100%; 
+      margin: 2 auto;
+      padding-right:2vw;
+    }
+
+    .techTagContainer {
+      border:  1px solid #9237a9;  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      border-radius: 20px;
+      margin-right: 1.4rem;
+      box-shadow: 0 0 0.6rem #2E1E41;
+      width: 12rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  
+    .techTagContainer p {
+      font-size: calc(0.7rem + 0.5vw); /* Responsive font size */
+      color: yellow;
+      font-weight: 500;
+    }
+  
+  }
+
+
+  @media (max-width: 500px) {
+    .experienceContainer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      margin-bottom: 20rem;
+    }
+  
+    .experienceTextContainer {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .experienceTextContainer h2 {
+      font-size: 12vw;
+    }
+  
+    .leftRightContainer {
+      height: 100%;
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  
+  
+  .experienceLeft {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+      height: 100%;
+      width: 100vw;
+      padding-left: 4vw;
+    }
+    
+    .experienceRight {
+      display: none;
+    }
+  
+    .experienceYellow {
+      color: yellow;
+    }
+
+    .experienceCard {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      padding-top: 1rem; 
+      padding-bottom: 1rem; 
+      margin-bottom: 2rem; 
+      background: transparent;
+    }
+  
+    .cardRight {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .companyRow {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: flex-start;
+      width: 100%;
+      height: auto;
+      margin-bottom: 1.2rem;
+    }
+  
+    .companyRow h2 {
+      font-size: calc(2.5rem + 1.2vw);
+      font-weight: 800;
+      color: yellow;
+      margin-right: 2rem;
+    }
+  
+    .companyRoleContainer {
+      height: 100%;
+      margin-right: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .companyRoleContainer h3 {
+      font-size: calc(1.2rem + 1.2vw);
+      font-weight: 500;
+      padding-bottom: 0.5vh;
+    }
+  
+
+    .timeFrameContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+
+
+    .timeFrame {
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+  
+    .reponsibility {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+    }
+  
+    .responsibilityContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+    }
+  
+    .responsibilityContainer p {
+      font-size: calc(1.2rem + 0.5vw); /* Responsive font size */
+      font-weight: 300;
+    }
+  
+  
+    .techTags {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 2rem;
+      width: 100%; 
+      margin: 2 auto;
+      padding-right:2vw;
+    }
+
+    .techTagContainer {
+      border:  1px solid #9237a9;  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      border-radius: 20px;
+      margin-right: 1.4rem;
+      box-shadow: 0 0 0.6rem #2E1E41;
+      width: 12rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  
+    .techTagContainer p {
+      font-size: calc(0.9rem + 0.5vw); /* Responsive font size */
+      color: yellow;
+      font-weight: 500;
+    }
+  
+  }

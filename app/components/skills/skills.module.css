@@ -1,0 +1,477 @@
+
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 20rem;
+}
+
+.skillsTitle {
+    font-size: calc(4rem + 1.5vw);
+    margin-bottom: 1rem;
+}
+
+.skillsYellow{
+    color: yellow;
+}
+
+.skillsIntroContainer {
+    min-width: 60%;
+    max-width: 80%;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.skillCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+}
+
+.skillCard {
+    flex: 1;
+    max-width: calc(33.33%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(50, 50, 50);
+    border-radius: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    transition: transform 0.3s ease;
+    border: 1.4px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0.5rem 0.7rem rgba(255, 255, 255, 0.1);
+
+}
+
+.skillCard:hover {
+    transform: translateY(-1rem);
+}
+
+.skillCardHeaderIcon {
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: 2rem;
+}
+
+.skillCardText {
+    width: 85%;
+}
+
+.skillCardText h2 {
+    font-size: 2rem; 
+    padding-bottom: 1rem;
+}
+
+.skillCardText p {
+    text-align: center;
+    font-size: 1.7rem; 
+    font-weight: 300;
+    padding-bottom: 3rem;
+}
+
+.whiteHorizontalBar{
+    height: 0.3rem; 
+    background-color: white;
+    max-width: 100%;
+    margin-bottom: 2rem; 
+}
+
+.skillCardText h3 {
+    font-size: 1.7rem; 
+    padding-bottom: 2rem;
+}
+
+.skillsTechStack {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 15rem)); 
+  grid-gap: 2.5rem; 
+  justify-items: center; 
+  align-items: center;
+  padding: 1rem; 
+}
+
+.skillsTechStackIconContainer {
+    height: 4.1rem;
+    width: 4.3rem;
+}
+
+.techStackIcon {
+  height: 100%; 
+  width: 100%; 
+  object-fit: fill;
+}
+
+/* ------  Project Management -------- */
+/* .project-management-card {
+    width: 100%; 
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh;
+    margin-top: 4vh;
+    background: rgb(50, 50, 50);
+    border-radius: 1vw;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 5vh;
+   
+}
+
+.pm-logo-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+.project-man-img {
+    height: 6vw;
+    width: 6vw;
+    margin-right: 3vw;
+}
+
+.pm-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    text-align: left;
+}
+
+.pm-text-container h2 {
+    font-size: 2.5vw; 
+}
+
+.pm-text-container p {
+    font-weight: 300    ;
+    font-size: 1.1vw;
+}
+
+
+
+.pm-white-horizontal-bar {
+    height: 0.5vh; 
+    background-color: white;
+    width: 90%; 
+    margin-top: 4vh;
+    margin-bottom: 4vh; 
+}
+
+.pm-tech-stack-list {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pm-icon-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    width: 90%;
+    text-align: left;
+}
+
+.pm-icon-text-container p {
+    margin-bottom: 1vh;
+    font-size: 1.1vw;
+    font-weight: 200;
+}
+
+.pm-tech-icon{
+    height: 5vw; 
+    width: 5vw; 
+    max-height: 50px;
+    max-width: 50px; 
+    object-fit: cover;
+    margin-bottom: 2vh;
+    margin-right: 1.5vw;
+} */
+
+
+@media (max-width: 1750px) {
+    .skillCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .skillCard {
+        flex: 1;
+        max-width: 80%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(50, 50, 50);
+        border-radius: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        transition: transform 0.3s ease;
+        border: 1.4px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 0.5rem 0.7rem rgba(255, 255, 255, 0.1);
+    
+    }
+    
+    .skillCard:hover {
+        transform: none;
+    }
+  
+}
+
+@media (max-width: 1260px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20rem;
+        width: 100vw;
+        height: 100%;
+    }
+    .skillCard {
+        flex: 1;
+        max-width: 98%; 
+    }
+  
+}
+
+
+@media  (max-width: 768px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20rem;
+        width: 100vw;
+        height: 100%;
+    }
+    
+    .skillsTitle {
+        font-size: 9vw;
+        margin-bottom: 1rem;
+    }
+    
+    .skillsYellow{
+        color: yellow;
+    }
+    
+    .skillsIntroContainer {
+        max-width: 95%;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-bottom: 3rem;
+    }
+    
+    .skillCards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .skillCard {
+        max-width: 90%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(50, 50, 50);
+        border-radius: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        transition: transform 0.3s ease;
+        border: 1.4px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 0.5rem 0.7rem rgba(255, 255, 255, 0.1);
+    
+    }
+    
+    .skillCard:hover {
+        transform: translateY(-1rem);
+    }
+    
+    .skillCardHeaderIcon {
+        height: 6rem;
+        width: 6rem;
+        margin-bottom: 2rem;
+    }
+    
+    .skillCardText {
+        width: 85%;
+    }
+    
+    .skillCardText h2 {
+        font-size: 2rem; 
+        padding-bottom: 1rem;
+    }
+    
+    .skillCardText p {
+        text-align: center;
+        font-size: 1.7rem; 
+        font-weight: 300;
+        padding-bottom: 3rem;
+    }
+    
+    .whiteHorizontalBar{
+        height: 0.3rem; 
+        background-color: white;
+        max-width: 100%;
+        margin-bottom: 2rem; 
+    }
+    
+    .skillCardText h3 {
+        font-size: 1.7rem; 
+        padding-bottom: 2rem;
+    }
+    
+    .skillsTechStack {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(auto, 15rem)); 
+      grid-gap: 2.5rem; 
+      justify-items: center; 
+      align-items: center;
+      padding: 1rem; 
+    }
+    
+    .skillsTechStackIconContainer {
+        height: 4.1rem;
+        width: 4.3rem;
+    }
+    
+    .techStackIcon {
+      height: 100%; 
+      width: 100%; 
+      object-fit: fill;
+    }
+}
+
+
+@media  (max-width: 500px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20rem;
+        width: 100vw;
+        height: 100%;
+    }
+    
+    .skillsTitle {
+        font-size: 12vw;
+        margin-bottom: 1rem;
+    }
+    
+    .skillsYellow{
+        color: yellow;
+    }
+    
+    .skillsIntroContainer {
+        max-width: 100%;
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-bottom: 3rem;
+        text-align: left;
+    }
+    
+    .skillCards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .skillCard {
+        max-width: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(50, 50, 50);
+        border-radius: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        transition: transform 0.3s ease;
+        border: 1.4px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 0.5rem 0.7rem rgba(255, 255, 255, 0.1);
+    
+    }
+    
+    .skillCard:hover {
+        transform: none;
+    }
+    
+    .skillCardHeaderIcon {
+        height: 5rem;
+        width: 5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .skillCardText {
+        width: 90%;
+    }
+    
+    .skillCardText h2 {
+        font-size: 1.7rem; 
+        padding-bottom: 1rem;
+    }
+    
+    .skillCardText p {
+        text-align: left;
+        font-size: 1.4rem; 
+        font-weight: 300;
+        padding-bottom: 3rem;
+    }
+    
+    .whiteHorizontalBar{
+        height: 0.3rem; 
+        background-color: white;
+        max-width: 100%;
+        margin-bottom: 2rem; 
+    }
+    
+    .skillCardText h3 {
+        font-size: 1.7rem; 
+        padding-bottom: 2rem;
+    }
+    
+    .skillsTechStack {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(auto, 15rem)); 
+      grid-gap: 2.5rem; 
+      justify-items: center; 
+      align-items: center;
+      padding: 1rem; 
+    }
+    
+    .skillsTechStackIconContainer {
+        height: 3.1rem;
+        width: 3.3rem;
+    }
+    
+    .techStackIcon {
+      height: 100%; 
+      width: 100%; 
+      object-fit: fill;
+    }
+}
+
+
+
+
+
+
+
+
+
+
