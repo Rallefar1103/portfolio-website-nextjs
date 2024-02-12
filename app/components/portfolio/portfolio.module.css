@@ -1,4 +1,4 @@
-#works {
+.portfolio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,29 +7,29 @@
     margin-bottom: 25rem;
 }
 
-.portfolio-title {
-    font-size: calc(4rem + 1.5vw)
+.portfolioTitle {
+    font-size: var(--section-h1-fs);
 }
 
-.portfolio-yellow {
-    color: yellow;
+.portfolioYellow {
+    color: var(--portfolio-yellow);
 }
 
-.all-projects-purple {
-    color: #9237a9; 
+.projectsPurple {
+    color: var(--portfolio-purple);
     font-weight: 500;
 }
 
 
-.portfolio-intro {
+.portfolioIntro {
     font-weight: 300;
-    font-size: 2rem;
+    font-size: var(--section-h3-fs);
     max-width: 100%;
     width: 80%;
     margin-bottom: 3rem;
 }
 
-.projects-grid {
+.projectsGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 2rem;
@@ -39,7 +39,7 @@
 
 
 /* Container */
- .project-container {
+ .projectContainer {
     background-color: rgb(50, 50, 50);
     border-radius: 20px;
     overflow: hidden;
@@ -50,7 +50,7 @@
     padding-bottom: 56.25%; 
 }
 
-.project-image-container {
+.projectImageContainer {
     position: absolute;
     top: 0;
     left: 0;
@@ -58,7 +58,7 @@
     height: 100%; 
 }
 
-.project-image {
+.projectImage{
     width: 100%;
     height: 100%; 
     object-fit: cover;
@@ -66,13 +66,13 @@
    
 }
 
-.project-container:hover .project-info-container {
+.projectContainer:hover .projectInfoContainer {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
 
-.project-info-container {
+.projectInfoContainer {
     position: absolute;
     top: 0;
     left: 0;
@@ -92,23 +92,23 @@
     transition: opacity 0.3s, visibility 2s, transform 0.3s; 
 }
 
-.project-info-container h3  {
-    font-size: calc(1rem + 1vw);
+.projectInfoContainer h3  {
+    font-size: var(--section-h3-fs);
     font-weight: 600;
     color: white;
 }
 
-.project-info-container p {
-    font-size: calc(0.6rem + 1vw);
+.projectInfoContainer p {
+    font-size: var(--section-p-fs);
     color: rgba(255, 255, 255, 0.787); 
     margin-bottom: 2rem;
 }
 
-.project-container:hover {
+.projectContainer:hover {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); 
 }
 
-.project-info-container button {
+.projectInfoContainer button {
     padding-top: 1rem;
     padding-left: 2rem;
     padding-bottom: 1rem;
@@ -124,12 +124,12 @@
     transition: background-color 0.3s;
 }
 
-.project-info-container button:hover {
+.projectInfoContainer button:hover {
     background-color: #faf9f7; 
     color: black;
 }
 
-.all-projects-button {
+.allProjectsContainer {
     margin-top: 4rem;
     padding-top: 1rem;
     padding-left: 2rem;
@@ -147,7 +147,7 @@
     font-size: 1.5rem;
 }
 
-.all-projects-button:hover {
+.allProjectsContainer:hover {
     background-color: #faf9f7; 
     color: black;
 }
@@ -158,7 +158,7 @@
 
 
  @media (max-width: 1750px){
-    .projects-grid {
+    .projectsGrid {
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
         gap: 2rem;
@@ -169,7 +169,7 @@
 
 
 @media (max-width: 768px) {
-    #works {
+    .portfolio {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -181,12 +181,11 @@
         height: 100%;
     }
 
-    #works h2 {
+    .portfolio h2 {
         margin-bottom: 1vh;
-        font-size: 9vw;
     }
     
-    .portfolio-intro {
+    .portfolioIntro {
         font-weight: 300;
         font-size: 3.5vw;
         max-width: 90vw;
@@ -194,7 +193,7 @@
         margin-bottom: 2rem;
     }
 
-    .projects-grid {
+    .projectsGrid {
         display: grid;
         grid-template-columns: 1fr; 
         gap: 2vh;
@@ -202,7 +201,7 @@
         height: 100%;
     }
 
-    .project-container {
+    .projectContainer {
         background-color: rgb(50, 50, 50);
         border-radius: 20px;
         overflow: hidden;
@@ -212,7 +211,7 @@
         height: 30vh;
     }
     
-    .project-image-container {
+    .projectImageContainer {
         position: absolute;
         top: 0;
         left: 0;
@@ -220,7 +219,7 @@
         height: 100%; 
     }
     
-    .project-image {
+    .projectImage{
         width: 100%;
         height: 100%; 
         object-fit: cover;
@@ -229,7 +228,7 @@
     }
 
     
-    .all-projects-button {
+    .allProjectsContainer {
         margin-top: 4vh;
         padding-top: 1.2vh;
         padding-left: 2.1vw;
@@ -241,23 +240,21 @@
     }
 
     
-    .project-info-container h3  {
-        font-size: 2rem;
+    .projectInfoContainer h3  {
         font-weight: 600;
         color: white;
     }
 
-    .project-info-container p {
-        font-size: 1.5rem;
+    .projectInfoContainer p {
         color: rgba(255, 255, 255, 0.787); 
         margin-bottom: 2rem;
     }
 
-    .project-container:hover {
+    .projectContainer:hover {
         box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); 
     }
 
-    .project-info-container button {
+    .projectInfoContainer button {
         padding-top: 1rem;
         padding-left: 2rem;
         padding-bottom: 1rem;
@@ -273,15 +270,15 @@
         transition: background-color 0.3s;
     }
 
-    .project-info-container button:hover {
+    .projectInfoContainer button:hover {
         background-color: #faf9f7; 
         color: black;
     }
     
 } 
 
-@media (max-width: 500px) {
-    #works {
+@media (max-width: 425px) {
+    .portfolio {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -293,12 +290,11 @@
         height: 100%;
     }
 
-    #works h2 {
+    .portfolio h2 {
         margin-bottom: 1vh;
-        font-size: 12vw;
     }
     
-    .portfolio-intro {
+    .portfolioIntro {
         text-align: left;
         font-weight: 300;
         font-size: 1.5rem;
@@ -307,7 +303,7 @@
         margin-bottom: 2rem;
     }
 
-    .projects-grid {
+    .projectsGrid {
         display: grid;
         grid-template-columns: 1fr; 
         gap: 2vh;
@@ -315,7 +311,7 @@
         height: 100%;
     }
 
-    .project-container {
+    .projectContainer {
         background-color: rgb(50, 50, 50);
         border-radius: 20px;
         overflow: hidden;
@@ -325,7 +321,7 @@
         height: 30vh;
     }
     
-    .project-image-container {
+    .projectImageContainer {
         position: absolute;
         top: 0;
         left: 0;
@@ -333,7 +329,7 @@
         height: 100%; 
     }
     
-    .project-image {
+    .projectImage{
         width: 100%;
         height: 100%; 
         object-fit: cover;
@@ -342,7 +338,7 @@
     }
 
     
-    .all-projects-button {
+    .allProjectsContainer {
         margin-top: 4vh;
         padding-top: 1.2vh;
         padding-left: 2.1vw;
@@ -354,23 +350,21 @@
     }
 
     
-    .project-info-container h3  {
-        font-size: 2rem;
+    .projectInfoContainer h3  {
         font-weight: 600;
         color: white;
     }
 
-    .project-info-container p {
-        font-size: 1.5rem;
+    .projectInfoContainer p {
         color: rgba(255, 255, 255, 0.787); 
         margin-bottom: 2rem;
     }
 
-    .project-container:hover {
+    .projectContainer:hover {
         box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); 
     }
 
-    .project-info-container button {
+    .projectInfoContainer button {
         padding-top: 1rem;
         padding-left: 2rem;
         padding-bottom: 1rem;
@@ -386,7 +380,7 @@
         transition: background-color 0.3s;
     }
 
-    .project-info-container button:hover {
+    .projectInfoContainer button:hover {
         background-color: #faf9f7; 
         color: black;
     }

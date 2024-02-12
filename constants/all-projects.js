@@ -1,19 +1,19 @@
 import "./project";
 // Portfolio Section Images
-import CityTravelPlannerImg from "../public/images/portfolio/city-travel-planner-project-img-jpg";
-import GroupShareImg from "../public/images/portfolio/group-share-friend-group.jpg";
+import CityTravelPlannerImg from "../public/images/portfolio/city-travel-planner-project-img.jpg";
+import GroupShareImg from "../public/images/portfolio/groupshare-img.jpg";
 import CamperProjectImage from "../public/images/portfolio/camper-project-image.jpg";
 import TechHavenImg from "../public/images/portfolio/tech-haven-project-img.jpg";
-import JetSetImg from "../public/images/portfolio/project-details/jetset/jetset-img.jpg";
+import JetSetImg from "../public/images/portfolio/jetset-img.jpg";
 import WasheeImg from "../public/images/portfolio/washee-img.png";
 
 // Project Details Page Image
 import CityTravelPlannerBgImg from "../public/images/project-details/travel-planner/city-travel-planner-bg-img-3.jpg";
-import TechHavenBgImg from "../public/images/project-details/tech-haven/tech-haven-bg-img-2.jpg";
+import TechHavenBgImg from "../public/images/project-details/tech-haven/tech-haven-project-img.jpg";
 import CamperBackgroundImage from "../public/images/project-details/camper/camper-details-image.jpg";
 import WasheeBgImg from "../public/images/project-details/washee/washee-bg-img-3.jpg";
 import JetSetBgImg from "../public/images/project-details/jetset/modern-woman-private-jet copy.jpg";
-import GroupShareBgImg from "../public/images/project-details/group-share/groupshare-img.jpg";
+import GroupShareBgImg from "../public/images/project-details/group-share/group-share-friend-group.jpg";
 
 // Project Details Mockup Images
 // Group Share
@@ -31,9 +31,9 @@ import TechHavenProductsPage from "../public/images/project-details/tech-haven/t
 import TechHavenSignInPage from "../public/images/project-details/tech-haven/tech-haven-sign-in.png";
 
 // City Travel Planner
-import CTPLandingPage from "../public/images/project-details/city-travel-planner/ctp-landing-page.png";
-import MockupTwoCTP from "../public/images/project-details/city-travel-planner/mockup-two.png";
-import MockupThreeCTP from "../public/images/project-details/city-travel-planner/mockup-three.png";
+import CTPLandingPage from "../public/images/project-details/travel-planner/ctp-landing-page.png";
+import MockupTwoCTP from "../public/images/project-details/travel-planner/mockup-two.png";
+import MockupThreeCTP from "../public/images/project-details/travel-planner/mockup-three.png";
 
 // Jetset
 import JetsetLandingPage from "../public/images/project-details/jetset/jetset-mockup1.png";
@@ -46,14 +46,16 @@ import WasheeTimeSlots from "../public/images/project-details/washee/washee-time
 import WasheeSmartphone from "../public/images/project-details/washee/jonas-leupe-8pCtwj37VB4-unsplash.jpg";
 
 // All projects page
-import QuantumSimBgImg from "../public/images/allProjectsPage/quantum-sim-img.jpg";
-import GroupHubBgImg from "../public/images/allProjectsPage/grouphub-img.jpg";
-import AStepBgImg from "../public/images/allProjectsPage/astep-img.jpg";
-import CO2BgImg from "../public/images/allProjectsPage/co2-sensing-img.jpg";
-import GCodeBgImg from "../public/images/allProjectsPage/g-code-img.jpg";
-import JFreeChartBgImg from "../public/images/allProjectsPage/jfree-charts-img.jpg";
-import LoRaBgImg from "../public/images/allProjectsPage/LoRa-img.jpg";
-import TTRegApp from "../public/images/allProjectsPage/turftank-reg-img.jpg";
+import QuantumSimBgImg from "../public/images/all-projects-page/quantum-sim-img.jpg";
+import GroupHubBgImg from "../public/images/all-projects-page/grouphub-img.jpg";
+import AStepBgImg from "../public/images/all-projects-page/astep-img.jpg";
+import CO2BgImg from "../public/images/all-projects-page/co2-sensing-img.jpg";
+import GCodeBgImg from "../public/images/all-projects-page/g-code-img.jpg";
+import JFreeChartBgImg from "../public/images/all-projects-page/jfree-charts-img.jpg";
+import LoRaBgImg from "../public/images/all-projects-page/LoRa-img.jpg";
+import TTRegApp from "../public/images/all-projects-page/turftank-reg-img.jpg";
+import FoodieFriendsImg from "../public/images/all-projects-page/foodie-friends-project-img.jpg";
+import LyriksImg from "../public/images/all-projects-page/lyriks-project-img.jpg";
 
 let allProjects = [
   {
