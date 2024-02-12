@@ -4,7 +4,7 @@
     flex-direction: row;
     width: 100%;
     height: 100vh;
-    margin-bottom: 20rem;
+    margin-bottom: var(--page-margin-bottom)
   }
   
   .aboutLeft{
@@ -64,8 +64,8 @@
   }
 
 
-  .aboutTextContainer h2 {
-    font-size: calc(3rem + 1.5vw); /* Responsive font size */
+  .aboutTextContainer h1 {
+    font-size: var(--section-h1-fs);
   }
   
   .aboutMeYellow {
@@ -73,18 +73,88 @@
   }
   
   .aboutTextContainer p {
-    font-size: calc(1.2rem + 0.5vw); /* Responsive font size */
+    font-size: var(--section-p-fs);
     font-weight: 300;
   }
   
   .forwardYellow {
-    color: yellow;
-    font-size: calc(1.2rem + 0.6vw); /* Responsive font size */
+    color: var(--portfolio-yellow);
+    font-size: var(--section-h3-fs);
     font-weight: 500;
   }
+
+  @media (max-width: 1370px){
+    .aboutContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      margin-bottom: var(--page-margin-bottom)
+    }
+    
+    .aboutLeft{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      height: 50%;
+      width: 100%;
+    }
+
+    .aboutImagesContainer {
+      position: relative; 
+      min-width: 80%;
+      width: 80%;
+      height: 100%;
+      margin: auto;  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .abstractImage {
+      width: 70%; 
+      height: 70%;
+      left: 10%;
+      top: 20%;
+    }
+    
+    .aboutProfilePicture {
+      width: 80%;
+      height: 80%;
+      margin-left: 2vw;
+    }
+    
+    .aboutRight {
+      width: 100%;
+      height: 40%;   
+      top: -5%;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding-right: 1vw;
+    }
+
+    .aboutTextContainer {
+      border-radius: 20px;
+      padding: 2vw;
+      width: 100%;
+      height: 100%;
+      padding: 5vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 1024){}
   
 
-  
   @media (max-width: 768px){
     .aboutContainer {
       display: flex;
@@ -148,28 +218,6 @@
       align-items: center;
       justify-content: flex-start;
       padding-right: 1vw;
-    }
-  
-    .aboutRight h2 {
-      font-size: 10vw;
-      margin-bottom: 0.5vh;
-    }
-  
-    .aboutMeYellow {
-      color: yellow;
-      
-    }
-  
-    .aboutRight p {
-      font-size: 3.5vw; 
-      font-weight: 300;
-      padding-left: 3vw;
-    }
-  
-    .forwardYellow {
-      color: yellow;
-      font-size: 4.2vw;
-      font-weight: 500;
     }
     
     .aboutTextContainer {
@@ -244,28 +292,6 @@
       align-items: center;
       justify-content: flex-start;
       padding-right: 1vw;
-    }
-  
-    .aboutRight h2 {
-      font-size: 12vw;
-      margin-bottom: 0.5vh;
-    }
-  
-    .aboutMeYellow {
-      color: yellow;
-      
-    }
-  
-    .aboutRight p {
-      font-size: 4.4vw; 
-      font-weight: 300;
-      padding-left: 3vw;
-    }
-  
-    .forwardYellow {
-      color: yellow;
-      font-size: 4.8vw;
-      font-weight: 500;
     }
     
     .aboutTextContainer {

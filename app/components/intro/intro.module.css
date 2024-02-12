@@ -14,7 +14,7 @@
   }
   
   .introLeft {
-    min-width: 50%;
+    max-width: 70%;
     min-height: 100%; 
     color: white;
     display: flex;
@@ -30,13 +30,13 @@
   }
 
   .introTextContainer h1 {
-    font-size: 4vw;
+    font-size: var(--section-h1-fs);
     font-weight: 700;
     line-height: 1.2; 
   }
 
   .introTextContainer h2 {
-    font-size: 1.5vw; 
+    font-size: var(--section-h2-fs); 
   }
   
   .name {
@@ -44,7 +44,7 @@
   }
   
   .introDescription {
-    font-size: 1.2vw;
+    font-size: var(--section-p-fs);
     font-weight: 300;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -212,22 +212,16 @@
   }
 
   .introTextContainer h1 {
-    font-size: calc(4.5rem + 1.5vw); 
     font-weight: bold;
     line-height: 1.2; 
   }
 
-
-  .introTextContainer h2 {
-    font-size: calc(2.5rem + 1.5vw); 
-  }
   
   .name {
     color: yellow;
   }
   
   .introDescription {
-    font-size: calc(1.2rem + 1vw);
     font-weight: 300;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -312,17 +306,12 @@
     line-height: 1.2; 
   }
 
-
-  .introTextContainer h2 {
-    font-size: calc(2.5rem + 1.5vw); 
-  }
   
   .name {
     color: yellow;
   }
   
   .introDescription {
-    font-size: calc(1.2rem + 1vw);
     font-weight: 300;
     margin-top: 1rem;
     margin-bottom: 1rem;

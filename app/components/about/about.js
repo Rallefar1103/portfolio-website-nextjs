@@ -24,9 +24,9 @@ const About = () => {
 
       <div className={styles.aboutRight}>
         <div className={styles.aboutTextContainer}>
-          <h2>
+          <h1>
             About <span className={styles.aboutMeYellow}>Me</span>{" "}
-          </h2>
+          </h1>
           <p>
             As a tech enthusiast and creator at heart, I launched my first
             startup in 2017, and from there jumped into a Computer Science
