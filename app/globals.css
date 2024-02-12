@@ -24,6 +24,7 @@ body {
   --section-h2-fs: 3rem;
   --section-h3-fs: 2rem;
   --section-p-fs: 1.8rem;
+  --tags-fs: 1.4rem;
 }
 
 @media (max-width: 768px) {
@@ -35,6 +36,7 @@ body {
     --section-h2-fs: 5rem;
     --section-h3-fs: 3rem;
     --section-p-fs: 2rem;
+    --tags-fs: 1.6rem;
   }
 }
 
@@ -47,5 +49,6 @@ body {
     --section-h2-fs: 4.5rem;
     --section-h3-fs: 3rem;
     --section-p-fs: 2rem;
+    --tags-fs: 1.7rem;
   }
 }

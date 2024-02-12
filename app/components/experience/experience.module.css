@@ -4,11 +4,11 @@
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
-    margin-bottom: 30rem;
+    margin-bottom: 30em;
   }
 
   .experienceTextContainer {
-    padding: 1.5rem;
+    padding: 1.5em;
     width: 100%;
   }
 
@@ -51,7 +51,7 @@
   }
 
   .experienceTextContainer h2 {
-    font-size: calc(5rem + 1vw);
+    font-size: var(--section-h1-fs);
   }
 
   .levelUpImageContainer {
@@ -81,9 +81,9 @@
     flex-direction: row;
     width: 100%;
     height: 100%;
-    padding-top: 1rem; 
-    padding-bottom: 1rem; 
-    margin-bottom: 1rem; 
+    padding-top: 1em; 
+    padding-bottom: 1em; 
+    margin-bottom: 1em; 
     background: transparent;
   
   }
@@ -95,11 +95,11 @@
     justify-content: center;
     min-width: 20%;
     min-height: 100%;
-    padding-left: 2rem;
+    padding-left: 2em;
   }
 
   .cardLeft p {
-    font-size: calc(1rem + 0.5vw);
+    font-size: var(--section-p-fs);
     font-weight: 200;
   }
 
@@ -120,19 +120,19 @@
     justify-content: flex-start;
     width: 100%;
     height: auto;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.2em;
   }
 
   .companyRow h2 {
-    font-size: calc(2rem + 1.2vw);
+    font-size: var(--section-h2-fs);
     font-weight: 800;
     color: yellow;
-    margin-right: 2rem;
+    margin-right: 1em;
   }
 
   .companyRoleContainer {
     height: 100%;
-    margin-right: 2rem;
+    margin-right: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,7 +140,7 @@
   }
 
   .companyRoleContainer h3 {
-    font-size: calc(0.8rem + 1.2vw);
+    font-size: var(--section-h3-fs);
     font-weight: 500;
    
   }
@@ -150,12 +150,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 1%;
+    padding-bottom: 0.5%;
+    text-decoration: none;
   }
 
   .companyWebsiteContainer p {
-    font-size: calc(1.2rem + 0.5vw); /* Responsive font size */
-    color: rgb(140, 84, 251);
+    font-size: var(--section-p-fs);
+    color: white;
+    text-decoration: none;
   }
 
   .reponsibility {
@@ -175,7 +177,7 @@
   }
 
   .responsibilityContainer p {
-    font-size: calc(1.2rem + 0.5vw); /* Responsive font size */
+    font-size: var(--section-p-fs);
     font-weight: 300;
   }
 
@@ -186,7 +188,7 @@
     justify-content: flex-start;
     flex-direction: row;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 2em;
   }
 
   .techTagContainer {
@@ -196,15 +198,15 @@
     justify-content: center;
     flex-direction: row;
     border-radius: 20px;
-    margin-right: 1.4rem;
+    margin-right: 1.4em;
     box-shadow: 0 0 0.6rem #2E1E41;
-    width: 12rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    width: 12em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
   }
 
   .techTagContainer p {
-    font-size: calc(0.4rem + 0.5vw); /* Responsive font size */
+    font-size: var(--tags-fs);
     color: yellow;
     font-weight: 500;
   }
@@ -214,7 +216,7 @@
     .techTags {
       display: grid;
       grid-template-columns: repeat(3, 1fr); 
-      gap: 2rem;
+      gap: 2em;
       width: 100%; 
       margin: 2 auto;
     }
@@ -229,20 +231,16 @@
       flex-direction: column;
       height: 100vh;
       width: 100%;
-      margin-bottom: 30rem;
+      margin-bottom: 30em;
     }
   
     .experienceTextContainer {
-      padding: 1.5rem;
+      padding: 1.5em;
       width: 100%;
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-    }
-
-    .experienceTextContainer h2 {
-      font-size: 4.5vw;
     }
   
     .leftRightContainer {
@@ -272,15 +270,10 @@
       color: yellow;
     }
 
-    .techTagContainer p {
-      font-size: calc(0.6rem + 0.5vw); /* Responsive font size */
-      color: yellow;
-      font-weight: 500;
-    }
 
     .companyRoleContainer {
       height: 100%;
-      margin-right: 2rem;
+      margin-right: 2em;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -288,11 +281,6 @@
       padding-top: 0.5%;
     }
   
-    .companyRoleContainer h3 {
-      font-size: calc(0.8rem + 1.2vw);
-      font-weight: 500;
-      
-    }
   
     .companyWebsiteContainer{
       height: 100%;
@@ -303,10 +291,6 @@
       padding-bottom: 0%;
     }
   
-    .companyWebsiteContainer p {
-      font-size: calc(1.2rem + 0.5vw); /* Responsive font size */
-      color: rgb(140, 84, 251);
-    }
 
   }
 
@@ -319,7 +303,7 @@
       flex-direction: column;
       height: 100%;
       width: 100vw;
-      margin-bottom: 20rem;
+      margin-bottom: 20em;
     }
   
     .experienceTextContainer {
@@ -329,11 +313,6 @@
       justify-content: center;
       align-items: center;
     }
-
-    .experienceTextContainer h2 {
-      font-size: 7.5vw;
-    }
-  
     .leftRightContainer {
       height: 100%;
       max-width: 100%;
@@ -351,25 +330,20 @@
       justify-content: center;
       height: 100%;
       width: 100vw;
-      padding-left: 2vw;
+      padding-left: 2em;
     }
     
     .experienceRight {
       display: none;
     }
-  
-    .experienceYellow {
-      color: yellow;
-    }
-
     .experienceCard {
       display: flex;
       flex-direction: row;
       width: 100%;
       height: 100%;
-      padding-top: 1rem; 
-      padding-bottom: 1rem; 
-      margin-bottom: 1rem; 
+      padding-top: 1em; 
+      padding-bottom: 1em; 
+      margin-bottom: 1em; 
       background: transparent;
     }
   
@@ -389,14 +363,7 @@
       justify-content: flex-start;
       width: 100%;
       height: auto;
-      margin-bottom: 1.2rem;
-    }
-  
-    .companyRow h2 {
-      font-size: calc(2rem + 1.2vw);
-      font-weight: 800;
-      color: yellow;
-      margin-right: 2rem;
+      margin-bottom: 1.2em;
     }
   
     .companyRoleContainer {
@@ -406,13 +373,6 @@
       flex-direction: column;
       justify-content: center;
     }
-  
-    .companyRoleContainer h3 {
-      font-size: calc(1rem + 1.2vw);
-      font-weight: 500;
-      padding-bottom: 0.5vh;
-    }
-  
     .companyWebsiteContainer{
      display: none;
     }
@@ -427,12 +387,12 @@
       justify-content: flex-start;
       align-items: center;
       width: 100%;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.5eem;
     }
 
 
     .timeFrame {
-      font-size: 1.4rem;
+      font-size: var(--section-p-fs);
       font-weight: 500;
     }
   
@@ -452,19 +412,13 @@
       width: 90%;
     }
   
-    .responsibilityContainer p {
-      font-size: calc(1.2rem + 0.5vw); /* Responsive font size */
-      font-weight: 300;
-    }
-  
-  
     .techTags {
       display: grid;
       grid-template-columns: repeat(3, 1fr); 
-      gap: 2rem;
+      gap: 2em;
       width: 100%; 
       margin: 2 auto;
-      padding-right:2vw;
+      padding-right:2em;
     }
 
     .techTagContainer {
@@ -474,30 +428,24 @@
       justify-content: center;
       flex-direction: row;
       border-radius: 20px;
-      margin-right: 1.4rem;
+      margin-right: 1.4em;
       box-shadow: 0 0 0.6rem #2E1E41;
-      width: 12rem;
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
-    }
-  
-    .techTagContainer p {
-      font-size: calc(0.7rem + 0.5vw); /* Responsive font size */
-      color: yellow;
-      font-weight: 500;
+      width: 12em;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
     }
   
   }
 
 
-  @media (max-width: 500px) {
+  @media (max-width: 425px) {
     .experienceContainer {
       display: flex;
       align-items: center;
       flex-direction: column;
       height: 100%;
       width: 100%;
-      margin-bottom: 20rem;
+      margin-bottom: 20em;
     }
   
     .experienceTextContainer {
@@ -508,9 +456,6 @@
       align-items: center;
     }
 
-    .experienceTextContainer h2 {
-      font-size: 12vw;
-    }
   
     .leftRightContainer {
       height: 100%;
@@ -529,7 +474,7 @@
       justify-content: center;
       height: 100%;
       width: 100vw;
-      padding-left: 4vw;
+      padding-left: 4em;
     }
     
     .experienceRight {
@@ -545,9 +490,9 @@
       flex-direction: column;
       width: 100%;
       height: 100%;
-      padding-top: 1rem; 
-      padding-bottom: 1rem; 
-      margin-bottom: 2rem; 
+      padding-top: 1em; 
+      padding-bottom: 1em; 
+      margin-bottom: 2em; 
       background: transparent;
     }
   
@@ -567,28 +512,15 @@
       justify-content: flex-start;
       width: 100%;
       height: auto;
-      margin-bottom: 1.2rem;
+      margin-bottom: 1.2em;
     }
-  
-    .companyRow h2 {
-      font-size: calc(2.5rem + 1.2vw);
-      font-weight: 800;
-      color: yellow;
-      margin-right: 2rem;
-    }
-  
+
     .companyRoleContainer {
       height: 100%;
-      margin-right: 2rem;
+      margin-right: 2em;
       display: flex;
       flex-direction: column;
       justify-content: center;
-    }
-  
-    .companyRoleContainer h3 {
-      font-size: calc(1.2rem + 1.2vw);
-      font-weight: 500;
-      padding-bottom: 0.5vh;
     }
   
 
@@ -598,14 +530,9 @@
       justify-content: flex-start;
       align-items: center;
       width: 100%;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.5em;
     }
 
-
-    .timeFrame {
-      font-size: 1.4rem;
-      font-weight: 500;
-    }
   
     .reponsibility {
       display: flex;
@@ -622,12 +549,6 @@
       justify-content: center;
       width: 90%;
     }
-  
-    .responsibilityContainer p {
-      font-size: calc(1.2rem + 0.5vw); /* Responsive font size */
-      font-weight: 300;
-    }
-  
   
     .techTags {
       display: grid;
@@ -645,17 +566,12 @@
       justify-content: center;
       flex-direction: row;
       border-radius: 20px;
-      margin-right: 1.4rem;
-      box-shadow: 0 0 0.6rem #2E1E41;
-      width: 12rem;
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
+      margin-right: 1.4em;
+      box-shadow: 0 0 0.6em #2E1E41;
+      width: 12em;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
     }
   
-    .techTagContainer p {
-      font-size: calc(0.9rem + 0.5vw); /* Responsive font size */
-      color: yellow;
-      font-weight: 500;
-    }
   
   }
