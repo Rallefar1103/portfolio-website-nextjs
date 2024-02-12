@@ -67,15 +67,6 @@ const ExperienceCard = ({ Company }) => {
               <div className={styles.companyRoleContainer}>
                 <h3>{title}</h3>
               </div>
-              {website && (
-                <>
-                  <div className={styles.companyWebsiteContainer}>
-                    <a className={styles.companyWebsite} href={website}>
-                      <p>Website</p>
-                    </a>
-                  </div>
-                </>
-              )}
             </div>
             <div className={styles.timeFrameContainer}>
               <p className={styles.timeFrame}>{timeFrame}</p>
@@ -106,15 +97,6 @@ const ExperienceCard = ({ Company }) => {
               <div className={styles.companyRoleContainer}>
                 <h3>{title}</h3>
               </div>
-              {website && (
-                <>
-                  <div className={styles.companyWebsiteContainer}>
-                    <a className={styles.companyWebsite} href={website}>
-                      <p>Website</p>
-                    </a>
-                  </div>
-                </>
-              )}
             </div>
             <div className={styles.reponsibility}>
               <div className={styles.responsibilityContainer}>

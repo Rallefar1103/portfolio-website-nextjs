@@ -20,7 +20,7 @@ const Skills = () => {
 
       <div className={styles.skillCards}>
         {allSkills.map((skill, index) => (
-          <div className={styles.skillCard} key={index}>
+          <div className={styles.skillCard} key={skill.title}>
             <Image
               src={skill.icon}
               alt={skill.title}
@@ -34,11 +34,15 @@ const Skills = () => {
               <h3> Proficient Tech Stack </h3>
               <div className={styles.skillsTechStack}>
                 {skill.tech.map((tech, index) => (
-                  <div className={styles.skillsTechStackIconContainer}>
+                  <div
+                    className={styles.skillsTechStackIconContainer}
+                    key={index}
+                  >
                     <Image
                       src={tech}
                       alt="ts"
-                      key={index}
+                      height={50}
+                      width={50}
                       className={styles.techStackIcon}
                     />
                   </div>
@@ -48,35 +52,6 @@ const Skills = () => {
           </div>
         ))}
       </div>
-      {/* 
-      <div className="project-management-card">
-        <div className="pm-logo-title-container">
-          <img
-            src={ProjectManIcon}
-            alt="project-management"
-            className="project-man-img"
-          />
-          <div className="pm-text-container">
-            <h2>Product Management</h2>
-            <p>
-              I thrive when I can blend my technical expertise with business
-              acumen and steer a project from conception to launch by assisting
-              and managing the team through all phases of the product
-              development lifecycle.
-            </p>
-          </div>
-        </div>
-
-        <div className="pm-white-horizontal-bar"></div>
-        <div className="pm-tech-stack-list">
-          {projectManagementSkills.map((tech, index) => (
-            <div className="pm-icon-text-container" key={index}>
-              <img src={tech.icon} alt="ts" className="pm-tech-icon" />
-              <p> {tech.description} </p>
-            </div>
-          ))}
-        </div>
-      </div> */}
     </section>
   );
 };

@@ -1,6 +1,6 @@
 import WebDevIcon from "../public/icons/coding.png";
-import MobileDevIcon from "../public/development.png";
-import CloudIcon from "../public/server.png";
+import MobileDevIcon from "../public/icons/development.png";
+import CloudIcon from "../public/icons/server.png";
 
 let allSkills = [
   {

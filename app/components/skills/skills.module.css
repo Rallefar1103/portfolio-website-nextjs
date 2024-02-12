@@ -6,11 +6,11 @@
     align-items: center;
     text-align: center;
     padding: 2rem;
-    margin-bottom: 20rem;
+    margin-bottom: var(--page-margin-bottom);
 }
 
 .skillsTitle {
-    font-size: calc(4rem + 1.5vw);
+    font-size: var(--section-h1-fs);
     margin-bottom: 1rem;
 }
 
@@ -21,7 +21,7 @@
 .skillsIntroContainer {
     min-width: 60%;
     max-width: 80%;
-    font-size: 2rem;
+    font-size: var(--section-h3-fs);
     font-weight: 300;
     margin-bottom: 3rem;
 }
@@ -65,13 +65,13 @@
 }
 
 .skillCardText h2 {
-    font-size: 2rem; 
+    font-size: var(--section-h2-fs);
     padding-bottom: 1rem;
 }
 
 .skillCardText p {
     text-align: center;
-    font-size: 1.7rem; 
+    font-size: var(--section-p-fs);
     font-weight: 300;
     padding-bottom: 3rem;
 }
@@ -84,7 +84,7 @@
 }
 
 .skillCardText h3 {
-    font-size: 1.7rem; 
+    font-size: var(--section-h3-fs);
     padding-bottom: 2rem;
 }
 
@@ -108,93 +108,6 @@
   object-fit: fill;
 }
 
-/* ------  Project Management -------- */
-/* .project-management-card {
-    width: 100%; 
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    padding: 3vh;
-    margin-top: 4vh;
-    background: rgb(50, 50, 50);
-    border-radius: 1vw;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    margin-bottom: 5vh;
-   
-}
-
-.pm-logo-title-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    width: 90%;
-}
-
-.project-man-img {
-    height: 6vw;
-    width: 6vw;
-    margin-right: 3vw;
-}
-
-.pm-text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 80%;
-    text-align: left;
-}
-
-.pm-text-container h2 {
-    font-size: 2.5vw; 
-}
-
-.pm-text-container p {
-    font-weight: 300    ;
-    font-size: 1.1vw;
-}
-
-
-
-.pm-white-horizontal-bar {
-    height: 0.5vh; 
-    background-color: white;
-    width: 90%; 
-    margin-top: 4vh;
-    margin-bottom: 4vh; 
-}
-
-.pm-tech-stack-list {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.pm-icon-text-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:flex-start;
-    width: 90%;
-    text-align: left;
-}
-
-.pm-icon-text-container p {
-    margin-bottom: 1vh;
-    font-size: 1.1vw;
-    font-weight: 200;
-}
-
-.pm-tech-icon{
-    height: 5vw; 
-    width: 5vw; 
-    max-height: 50px;
-    max-width: 50px; 
-    object-fit: cover;
-    margin-bottom: 2vh;
-    margin-right: 1.5vw;
-} */
 
 
 @media (max-width: 1750px) {
@@ -257,7 +170,6 @@
     }
     
     .skillsTitle {
-        font-size: 9vw;
         margin-bottom: 1rem;
     }
     
@@ -267,7 +179,6 @@
     
     .skillsIntroContainer {
         max-width: 95%;
-        font-size: 1.5rem;
         font-weight: 300;
         margin-bottom: 3rem;
     }
@@ -310,13 +221,11 @@
     }
     
     .skillCardText h2 {
-        font-size: 2rem; 
         padding-bottom: 1rem;
     }
     
     .skillCardText p {
         text-align: center;
-        font-size: 1.7rem; 
         font-weight: 300;
         padding-bottom: 3rem;
     }
@@ -329,7 +238,6 @@
     }
     
     .skillCardText h3 {
-        font-size: 1.7rem; 
         padding-bottom: 2rem;
     }
     
@@ -355,7 +263,7 @@
 }
 
 
-@media  (max-width: 500px) {
+@media  (max-width: 425px) {
     .skills{
         display: flex;
         flex-direction: column;
@@ -367,7 +275,6 @@
     }
     
     .skillsTitle {
-        font-size: 12vw;
         margin-bottom: 1rem;
     }
     
@@ -378,7 +285,6 @@
     .skillsIntroContainer {
         max-width: 100%;
         width: 100%;
-        font-size: 1.5rem;
         font-weight: 300;
         margin-bottom: 3rem;
         text-align: left;
@@ -421,14 +327,9 @@
         width: 90%;
     }
     
-    .skillCardText h2 {
-        font-size: 1.7rem; 
-        padding-bottom: 1rem;
-    }
     
     .skillCardText p {
         text-align: left;
-        font-size: 1.4rem; 
         font-weight: 300;
         padding-bottom: 3rem;
     }

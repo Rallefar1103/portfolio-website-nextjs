@@ -4,7 +4,7 @@
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
-    margin-bottom: 30em;
+    margin-bottom: var(--page-margin-bottom);
   }
 
   .experienceTextContainer {
@@ -143,21 +143,6 @@
     font-size: var(--section-h3-fs);
     font-weight: 500;
    
-  }
-
-  .companyWebsiteContainer {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 0.5%;
-    text-decoration: none;
-  }
-
-  .companyWebsiteContainer p {
-    font-size: var(--section-p-fs);
-    color: white;
-    text-decoration: none;
   }
 
   .reponsibility {
