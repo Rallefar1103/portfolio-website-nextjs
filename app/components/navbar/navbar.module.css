@@ -1,0 +1,157 @@
+.navbar {
+    background: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    padding: 1.5rem;
+}
+
+.emailBtnWrapper {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 22px;
+    height: 2rem;
+    color: black;
+}
+
+.emailBtnWrapper p {
+    font-size: 1.7rem;
+}
+
+.emailBtn {
+    border: none;
+}
+
+.emailLinkIcon {
+    object-fit: cover;
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+   
+}
+
+.desktopMenuListItem {
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.desktopMenuListItem:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+
+.active {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height:fit-content;
+    min-width: 15rem;
+    background: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
+
+.mobileMenu {
+    display: none; 
+}
+
+.hamburgerBtn {
+    display: none;
+}
+
+.mobileMenu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9); 
+    z-index: 30;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+  
+  .mobileMenu a {
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .mobileMenu a:hover {
+    color: yellow; /* Change color to yellow on hover */
+  }
+  
+  .closeMenu {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 8vw;
+    cursor: pointer;
+  }
+
+
+@media screen and (max-width: 768px) {
+    .mobileMenu {
+        display: flex;
+    }
+
+    .hamburgerBtn {
+        margin-top: 2vh;
+        display: block;
+        border: none;
+        height: 8vw;
+         width: 8vw;
+
+      }
+      .menuIcon {
+        object-fit: fill;
+        height: 100%;
+        width: 100%;
+      }
+      .desktopMenu {
+        display: none;
+      }
+      .mobileMenu {
+        display: flex;
+      }
+      .emailBtnWrapper {
+       display: none;
+    }
+  
+
+    
+    
+}
+
+
