@@ -1,4 +1,5 @@
 import About from "./components/about/about";
+import Blog from "./components/blog/blog";
 import Experience from "./components/experience/experience";
 import Intro from "./components/intro/intro";
 import Portfolio from "./components/portfolio/portfolio";
@@ -12,6 +13,7 @@ export default function Home() {
       <Experience />
       <Skills />
       <Portfolio />
+      <Blog />
     </>
   );
 }
