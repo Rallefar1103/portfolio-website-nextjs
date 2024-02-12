@@ -28,7 +28,7 @@
     min-width: 80%;
     min-height: 40%; 
   }
-
+ 
   .introTextContainer h1 {
     font-size: var(--section-h1-fs);
     font-weight: 700;
@@ -75,15 +75,15 @@
   }
 
   .profilePictureContainer {
-    width: 70%;
-    padding-top: 70%; 
+    width: 60%;
+    padding-top: 60%; 
     position: relative;
   }
 
 
   .profilePicture {
     position: absolute;
-    top: 0;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%); 
     border-radius: 50%;
