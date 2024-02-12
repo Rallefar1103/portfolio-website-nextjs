@@ -10,6 +10,11 @@
     padding: 1.5rem;
 }
 
+.a {
+  text-decoration: none;
+  border: none;
+}
+
 .emailBtnWrapper {
     background: white;
     display: flex;
@@ -23,6 +28,7 @@
 
 .emailBtnWrapper p {
     font-size: var(--section-p-fs);
+   
 }
 
 .emailBtn {
@@ -34,11 +40,10 @@
 
 .emailLinkIcon {
     object-fit: cover;
-    height: 2.2rem;
-    width: 2.2rem;
-    margin-right: 1rem;
-    margin-top: 0.5rem;
-   
+    height: 2.5rem;
+    width: 2.5rem;
+    padding-top: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .desktopMenuListItem {
@@ -54,14 +59,12 @@
 
 .desktopMenuListItem:hover {
     color: yellow;
-    padding-bottom: 0.5rem;
     border-bottom: 3px solid yellow;
 }
 
 
 .active {
     color: yellow;
-    padding-bottom: 0.5rem;
     border-bottom: 3px solid yellow;
 }
 

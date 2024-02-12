@@ -12,7 +12,8 @@ html {
 }
 
 body {
-  background: #010B1B;
+  background: linear-gradient(to bottom right, #010B1B, #050229);;
+  /* background: #010B1B; */
   color: white;
   overflow: hidden;
   overflow-y: scroll; 
