@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import styles from "./navbar.module.css";
 import Image from "next/image";
-import Link from "next/link";
 import GmailIcon from "../../../public/icons/gmail.png";
 import MenuIcon from "../../../public/icons/menu.png";
 

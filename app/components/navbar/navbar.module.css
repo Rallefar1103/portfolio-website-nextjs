@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 22px;
     height: 2rem;
     color: black;
@@ -27,12 +27,15 @@
 
 .emailBtn {
     border: none;
+    background: none; 
+    padding: 0; 
+    cursor: pointer; 
 }
 
 .emailLinkIcon {
     object-fit: cover;
-    height: 1.6rem;
-    width: 1.6rem;
+    height: 2.2rem;
+    width: 2.2rem;
     margin-right: 1rem;
     margin-top: 0.5rem;
    
