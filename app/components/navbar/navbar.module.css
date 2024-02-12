@@ -22,7 +22,7 @@
 }
 
 .emailBtnWrapper p {
-    font-size: 1.7rem;
+    font-size: var(--section-p-fs);
 }
 
 .emailBtn {
@@ -43,6 +43,10 @@
     font-size: 2rem;
     font-weight: 800;
     cursor: pointer;
+    color: white;
+    text-decoration: none;
+    background: transparent;
+    border: none;
 }
 
 .desktopMenuListItem:hover {

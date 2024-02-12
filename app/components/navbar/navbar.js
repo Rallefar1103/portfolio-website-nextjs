@@ -14,19 +14,22 @@ const Navbar = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    setIsMobileMenuOpen(false);
+  };
+
   const NavLink = ({ to, children }) => {
     return (
-      <Link
-        activeClass={styles.active}
-        href={to}
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
+      <button
+        onClick={() => scrollToSection(to)}
         className={styles.desktopMenuListItem}
       >
         {children}
-      </Link>
+      </button>
     );
   };
 
@@ -37,8 +40,8 @@ const Navbar = () => {
         <NavLink to="about">About</NavLink>
         <NavLink to="experience">Experience</NavLink>
         <NavLink to="skills">Skills</NavLink>
-        <NavLink to="works">Portfolio</NavLink>
-        <NavLink to="articles">Articles</NavLink>
+        <NavLink to="portfolio">Portfolio</NavLink>
+        <NavLink to="blog">Articles</NavLink>
       </div>
       <button className={styles.hamburgerBtn} onClick={toggleMobileMenu}>
         <Image src={MenuIcon} alt="Menu" className={styles.menuIcon} />
@@ -52,8 +55,8 @@ const Navbar = () => {
           <NavLink to="about">About</NavLink>
           <NavLink to="experience">Experience</NavLink>
           <NavLink to="skills">Skills</NavLink>
-          <NavLink to="works">Portfolio</NavLink>
-          <NavLink to="articles">Blog</NavLink>
+          <NavLink to="portfolio">Portfolio</NavLink>
+          <NavLink to="blog">Blog</NavLink>
         </div>
       )}
       <a href="mailto:rasmus.henriksen@live.dk" rel="noopener noreferrer">
