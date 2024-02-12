@@ -1,55 +1,64 @@
 import React from "react";
-import "./intro.css";
+import styles from "./intro.module.css";
 
-import LinkedinIcon from "../../assets/linkedin.png";
-import GitHubIcon from "../../assets/github.png";
-import MediumIcon from "../../assets/medium.png";
-import ProfilePic from "../../assets/profile.jpeg";
+import LinkedinIcon from "../../../public/icons/linkedin.png";
+import GitHubIcon from "../../../public/icons/github.png";
+import MediumIcon from "../../../public/icons/medium.png";
+import ProfilePic from "../../../public/images/intro/profile.jpeg";
+import Image from "next/image";
 
-const IntroRevised = () => {
+const Intro = () => {
   return (
-    <section id="intro">
-      <div className="intro-left">
-        <div className="intro-text-container">
-          <h1 className="hello">
-            Hi! 👋 <br /> I'm <span className="name">Rasmus</span>
+    <section id="intro" className={styles.intro}>
+      <div className={styles.introLeft}>
+        <div className={styles.introTextContainer}>
+          <h1>
+            Hi! 👋 <br /> I'm <span className={styles.name}>Rasmus</span>
           </h1>
           <h2>Full-Stack Software Engineer</h2>
-          <p className="intro-description">
+          <p className={styles.introDescription}>
             with a M.S. degree in Computer Science from UCLA and five years of
             professional experience working as a software engineer including two
             years as a tech-startup founder.
           </p>
         </div>
 
-        <div className="intro-social-links">
+        <div className={styles.introSocialLinks}>
           <a
             href="https://www.linkedin.com/in/rasmus-henriksen-a5b660109/"
             rel="noopener noreferrer"
           >
-            <img src={LinkedinIcon} alt="Linkedin" />
+            <Image
+              src={LinkedinIcon}
+              alt="Linkedin"
+              className={styles.socialImg}
+            />
           </a>
           <a
             href="https://github.com/Rallefar1103?tab=repositories"
             rel="noopener noreferrer"
           >
-            <img src={GitHubIcon} alt="GitHub" />
+            <Image src={GitHubIcon} alt="GitHub" className={styles.socialImg} />
           </a>
           <a
             href="https://medium.com/me/stories/public"
             rel="noopener noreferrer"
           >
-            <img src={MediumIcon} alt="Medium" />
+            <Image src={MediumIcon} alt="Medium" className={styles.socialImg} />
           </a>
         </div>
       </div>
-      <div className="intro-right">
-        <div className="profile-picture-container">
-          <img src={ProfilePic} alt="Profile" className="profile-picture" />
+      <div className={styles.introRight}>
+        <div className={styles.profilePictureContainer}>
+          <Image
+            src={ProfilePic}
+            alt="Profile"
+            className={styles.profilePicture}
+          />
         </div>
       </div>
     </section>
   );
 };
 
-export default IntroRevised;
+export default Intro;

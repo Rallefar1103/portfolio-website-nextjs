@@ -18,12 +18,12 @@ const Navbar = () => {
     return (
       <Link
         activeClass={styles.active}
-        to={to}
+        href={to}
         spy={true}
         smooth={true}
         offset={-70}
         duration={500}
-        className={desktopMenuListItem}
+        className={styles.desktopMenuListItem}
       >
         {children}
       </Link>
@@ -58,8 +58,12 @@ const Navbar = () => {
       )}
       <a href="mailto:rasmus.henriksen@live.dk" rel="noopener noreferrer">
         <div className={styles.emailBtnWrapper}>
-          <button className={emailBtn}>
-            <Image src={GmailIcon} alt="Email" className={emailLinkIcon} />
+          <button className={styles.emailBtn}>
+            <Image
+              src={GmailIcon}
+              alt="Email"
+              className={styles.emailLinkIcon}
+            />
           </button>
           <p>Contact Me</p>
         </div>
