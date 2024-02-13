@@ -4,7 +4,7 @@
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
-    margin-bottom: 50em;
+    margin-bottom: 20em;
   }
 
   .experienceTextContainer {
@@ -448,7 +448,7 @@
       justify-content: flex-start;
       height: 100%;
       width: 100%;
-      margin-bottom: 0;
+      
     }
   
     .experienceTextContainer {
@@ -515,7 +515,7 @@
     }
 
     .companyRow h2 {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
       font-weight: 800;
       color: var(--portfolio-yellow);
     }
@@ -530,7 +530,7 @@
 
 
     .companyRoleContainer h3 {
-      font-size: 1.4rem;
+      font-size: 1.7rem;
       font-weight: 500;
       padding-bottom: 0.5rem;
     }
@@ -570,7 +570,7 @@
     }
 
     .responsibilityContainer p {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       font-weight: 300;
     }
   

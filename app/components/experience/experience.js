@@ -44,38 +44,9 @@ const ExperienceCard = ({ Company }) => {
 
   const isNarrowScreen = useMediaQuery("(max-width: 1000px)");
 
-  const isMobile = useMediaQuery("(max-width: 425px)");
-
   return (
     <>
       {isNarrowScreen ? (
-        <div className={styles.experienceCard}>
-          <div className={styles.cardRight}>
-            <div className={styles.companyRow}>
-              <h2>{company}</h2>
-              <div className={styles.companyRoleContainer}>
-                <h3>{title}</h3>
-              </div>
-            </div>
-            <div className={styles.timeFrameContainer}>
-              <p className={styles.timeFrame}>{timeFrame}</p>
-            </div>
-
-            <div className={styles.reponsibility}>
-              <div className={styles.responsibilityContainer}>
-                <p>{responsibilities}</p>
-              </div>
-            </div>
-            <div className={styles.techTags}>
-              {experience.techTags.map((tag, index) => (
-                <div className={styles.techTagContainer} key={index}>
-                  <p>{tag}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      ) : isMobile ? (
         <div className={styles.experienceCard}>
           <div className={styles.cardRight}>
             <div className={styles.companyRow}>

@@ -10,7 +10,7 @@ const AllProjectsPage = () => {
   return (
     <section id="allProjects" className={styles.allProjects}>
       <div className={styles.introContainer}>
-        <BackButton />
+        <BackButton className={styles.allProjectsBackBtn} />
         <div className={styles.containerLeft}>
           <div className={styles.profilePicContainer}>
             <Image

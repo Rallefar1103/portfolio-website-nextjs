@@ -26,7 +26,7 @@ const Footer = () => {
               rasmus.henriksen@live.dk
             </a>
           </div>
-          <div className="icon-link-wrapper">
+          <div className={styles.iconLinkWrapper}>
             <Image src={ResumeIcon} alt="mail" className={styles.footerIcon} />
             <a
               href="https://docs.google.com/document/d/15kWobjG5aHBm7mDrcYSNG64Y91Mf8E8j3qsD0P3oc20/export?format=pdf"

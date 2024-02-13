@@ -326,9 +326,11 @@
   }
   
   /* ---- MOBILE ---- */
-  @media (max-width: 500px) {
+  @media (max-width: 425px) {
+    .backButton {
+      display: none;
+    }
 
-    
     .firstScreenWrapper{
       width: 100vw;
       height: 100vh; 

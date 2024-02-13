@@ -292,13 +292,14 @@
 
     .portfolio h2 {
         margin-bottom: 1vh;
+        font-size: 3.5rem;
     }
     
     .portfolioIntro {
         text-align: left;
         font-weight: 300;
-        font-size: 1.5rem;
-        max-width: 90vw;
+        font-size: 2rem;
+        max-width: 90%;
         width: 90%;
         margin-bottom: 2rem;
     }
@@ -351,6 +352,7 @@
 
     
     .projectInfoContainer h3  {
+        font-size: 2rem;
         font-weight: 600;
         color: white;
     }
@@ -358,6 +360,7 @@
     .projectInfoContainer p {
         color: rgba(255, 255, 255, 0.787); 
         margin-bottom: 2rem;
+        font-size: 1.5rem;
     }
 
     .projectContainer:hover {

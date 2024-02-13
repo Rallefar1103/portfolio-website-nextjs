@@ -45,3 +45,14 @@
     }
 
 }
+
+@media (max-width: 425px) {
+  
+    .blogHeader {
+        font-size: 3.5rem;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    
+}
