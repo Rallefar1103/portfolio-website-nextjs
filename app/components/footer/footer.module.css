@@ -160,6 +160,80 @@
   
 }
 
+@media (max-width: 768px) {
+  .footer {
+    height: 100%;
+  
+  }
+  
+
+  .footerTextContainer {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    margin-bottom: 0; 
+    width: 80%;
+  }
+  
+  .footerTextContainer h2 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .footerTextContainer p {
+    font-size: 1.4rem;
+    color: white; 
+    font-weight: 200;
+  }
+  
+  .footerYellow {
+    color: yellow;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  
+  .footerBoldWhite{
+    color: white;
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+
+  .footer a {
+    font-size: 1.4rem;
+    color: #aaa;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #fff;
+  }
+  
+  .footerLinksContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    padding-bottom: 3rem;
+  }
+
+  .footerIcon {
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+    filter: none; 
+  }
+  
+  .iconLinkWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 
 
 @media (max-width: 425px) {

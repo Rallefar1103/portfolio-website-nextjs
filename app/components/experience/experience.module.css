@@ -439,6 +439,173 @@
   
   }
 
+  @media (max-width: 768px) {
+    .experienceContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      height: 100%;
+      width: 100%;
+      
+    }
+  
+    .experienceTextContainer {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .experienceTextContainer h2 {
+      font-size: 3.5rem;
+    }
+  
+    .leftRightContainer {
+      height: 100%;
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  
+  
+  .experienceLeft {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; 
+      justify-content: flex-start;
+      height: 100%;
+      width: 100%;
+    }
+    
+    .experienceRight {
+      display: none;
+    }
+
+    .experienceCard {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      padding-top: 1em; 
+      padding-bottom: 1em; 
+      margin-bottom: 2em; 
+      background: transparent;
+    }
+  
+    .cardRight {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .companyRow {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+    }
+
+    .companyRow h2 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: var(--portfolio-yellow);
+    }
+
+    .companyRoleContainer {
+      height: 100%;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+
+    .companyRoleContainer h3 {
+      font-size: 1.7rem;
+      font-weight: 500;
+      padding-bottom: 0.5rem;
+    }
+  
+
+    .timeFrameContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 0.5em;
+    }
+
+
+
+    .timeFrame {
+      font-size: 1.7rem;
+      font-weight: 500;
+    }
+  
+  
+    .reponsibility {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+    }
+  
+    .responsibilityContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+    }
+
+    .responsibilityContainer p {
+      font-size: 1.4rem;
+      font-weight: 300;
+    }
+  
+  
+    .techTags {
+      display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+      width: 100%; 
+      margin: 2 auto;
+    }
+
+    .techTagContainer {
+      border:  1px solid #9237a9;  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      border-radius: 20px;
+      margin-right: 1em;
+      box-shadow: 0 0 0.6em #2E1E41;
+      width: 10rem;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+    }
+
+
+  .techTagContainer p {
+    font-size: 1rem;
+    color: var(--portfolio-yellow);
+    font-weight: 500;
+  }
+
+  }
+
 
   @media (max-width: 425px) {
     .experienceContainer {

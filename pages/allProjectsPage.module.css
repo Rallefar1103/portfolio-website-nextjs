@@ -254,42 +254,21 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        height: 40vh;
-        width: 90vw;
-        margin-top: 2vh;
-        margin-bottom: 5vh;
+        height: 100%;
     }
     
     .containerLeft {
         display: flex;
-        flex-direction: column;
-        align-items: center; 
+        align-items: center;
         justify-content: center;
-        height: 100%;
-        width: 100%;
-        padding-left: 1vw;
-        padding-right: 1vw;
-    }
-    
-    .profilePicture {
-        border-radius: 50%;
-        width: 100%;
-        height: 90%;
-        object-fit: cover;
-        border: 3px solid rgba(255, 255, 255, 0.4);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        flex-direction: row;
     }
     
     .containerRight {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        position: relative;
+        align-items: center;
+        justify-content: flex-start;
         flex-direction: column;
-        align-items: center; 
-        justify-content: center;
-        margin-left: 2vw;
-        
+        height: 100%;
     }
     
     .textContainer {
@@ -309,15 +288,15 @@
         position: relative;
         flex-direction: row;
         justify-content: center;
-        margin-right: 2vw;
+        margin-top: 2rem;
         width: 100%
     }
     
     .getInTouchBtn {
-        padding-top: 1vh;
-        padding-left: 1.3vw;
-        padding-bottom: 1vh;
-        padding-right: 1.3vw;
+        padding-top: 1rem;
+        padding-left: 1.3rem;
+        padding-bottom: 1rem;
+        padding-right: 1.3rem;
         border: 2px solid #9237a9; 
         border-radius: 20px;
         font-size: 1.2rem;
@@ -327,8 +306,8 @@
         text-decoration: none; 
         font-weight: bold;
         transition: background-color 0.3s;
-        margin-top: 1vh;
-        margin-right: 3vw;
+        margin-top: 1rem;
+        margin-right: 1.5rem;
         color: yellow;
     }
     
@@ -435,7 +414,6 @@
         background-color: #faf9f7; 
         color: black;
     }
-    
     
 }
 

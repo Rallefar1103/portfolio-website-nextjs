@@ -322,6 +322,11 @@
       color: yellow;
       font-weight: 500;
     }
+
+    .backButton {
+      display: none;
+    }
+
     
   }
   
