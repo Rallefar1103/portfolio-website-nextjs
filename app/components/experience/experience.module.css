@@ -349,6 +349,13 @@
       height: auto;
       margin-bottom: 1.2em;
     }
+
+    .companyRow h2 {
+      font-size: var(--section-h2-fs);
+      font-weight: 800;
+      color: yellow;
+      margin-right: 1em;
+    }
   
     .companyRoleContainer {
       height: 100%;
@@ -357,6 +364,17 @@
       flex-direction: column;
       justify-content: center;
     }
+
+
+  .companyRoleContainer h3 {
+    font-size: var(--section-h3-fs);
+    font-weight: 500;
+   
+  }
+
+
+ 
+
     .companyWebsiteContainer{
      display: none;
     }
@@ -425,48 +443,47 @@
   @media (max-width: 425px) {
     .experienceContainer {
       display: flex;
-      align-items: center;
       flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
       height: 100%;
       width: 100%;
-  
+      margin-bottom: 0;
     }
   
     .experienceTextContainer {
       width: 100%;
       display: flex;
       flex-direction: row;
-      justify-content: center;
-      align-items: center;
+      justify-content: flex-start;
+      align-items: flex-start;
     }
 
+    .experienceTextContainer h2 {
+      font-size: 3.5rem;
+    }
   
     .leftRightContainer {
       height: 100%;
       max-width: 100%;
       display: flex;
       flex-direction: row;
-      align-items: center;
-      justify-content: center;
+      align-items: flex-start;
+      justify-content: flex-start;
     }
   
   
   .experienceLeft {
       display: flex;
       flex-direction: column;
-      align-items: center; 
-      justify-content: center;
+      align-items: flex-start; 
+      justify-content: flex-start;
       height: 100%;
-      width: 100vw;
-      padding-left: 4em;
+      width: 100%;
     }
     
     .experienceRight {
       display: none;
-    }
-  
-    .experienceYellow {
-      color: yellow;
     }
 
     .experienceCard {
@@ -483,7 +500,7 @@
     .cardRight {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
       width: 100%;
       height: 100%;
@@ -491,20 +508,31 @@
   
     .companyRow {
       display: flex;
-      flex-direction: row;
-      align-items: flex-end;
-      justify-content: flex-start;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
       width: 100%;
-      height: auto;
-      margin-bottom: 1.2em;
+    }
+
+    .companyRow h2 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: var(--portfolio-yellow);
     }
 
     .companyRoleContainer {
       height: 100%;
-      margin-right: 2em;
       display: flex;
+      width: 100%;
       flex-direction: column;
-      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+
+    .companyRoleContainer h3 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      padding-bottom: 0.5rem;
     }
   
 
@@ -517,6 +545,13 @@
       margin-bottom: 0.5em;
     }
 
+
+
+    .timeFrame {
+      font-size: 1.7rem;
+      font-weight: 500;
+    }
+  
   
     .reponsibility {
       display: flex;
@@ -533,14 +568,19 @@
       justify-content: center;
       width: 90%;
     }
+
+    .responsibilityContainer p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+  
   
     .techTags {
       display: grid;
       grid-template-columns: repeat(2, 1fr); 
-      gap: 2rem;
+      gap: 1rem;
       width: 100%; 
       margin: 2 auto;
-      padding-right:2vw;
     }
 
     .techTagContainer {
@@ -550,12 +590,20 @@
       justify-content: center;
       flex-direction: row;
       border-radius: 20px;
-      margin-right: 1.4em;
+      margin-right: 1em;
       box-shadow: 0 0 0.6em #2E1E41;
-      width: 12em;
+      width: 10rem;
       padding-top: 0.5em;
       padding-bottom: 0.5em;
     }
+
+
+  .techTagContainer p {
+    font-size: 1rem;
+    color: var(--portfolio-yellow);
+    font-weight: 500;
+  }
+
   
   
   }
