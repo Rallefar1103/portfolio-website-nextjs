@@ -11,6 +11,7 @@
     box-sizing: border-box; 
     overflow: hidden; 
     margin-top: 5em;
+    margin-bottom: 10rem;
   }
   
   .introLeft {
@@ -194,7 +195,6 @@
     justify-content: flex-start; 
     flex-direction: column;
     margin-top: 5rem;
-    margin-bottom: 15rem;
     margin-inline: auto;
   }
 
@@ -291,7 +291,6 @@
     justify-content: flex-start; 
     flex-direction: column;
     margin-top: 5rem;
-    margin-bottom: 15rem;
     margin-inline: auto;
   }
 
