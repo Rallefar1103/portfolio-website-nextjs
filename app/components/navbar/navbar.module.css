@@ -1,4 +1,4 @@
-.navbar {
+.navbar  {
     background: transparent;
     width: 100%;
     display: flex;
@@ -7,10 +7,10 @@
     position: absolute;
     top: 0;
     z-index: 20;
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
-.a {
+.navbar a {
   text-decoration: none;
   border: none;
 }
@@ -55,6 +55,7 @@
     text-decoration: none;
     background: transparent;
     border: none;
+    border-bottom: 3px solid transparent;
 }
 
 .desktopMenuListItem:hover {

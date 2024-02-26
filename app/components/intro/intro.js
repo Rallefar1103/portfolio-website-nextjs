@@ -18,8 +18,8 @@ const Intro = () => {
           <h2>Full-Stack Software Engineer</h2>
           <p className={styles.introDescription}>
             with a M.S. degree in Computer Science from UCLA and five years of
-            professional experience working as a software engineer including two
-            years as a tech-startup founder.
+            professional experience working as a full-stack software engineer
+            including two years as a tech-startup founder.
           </p>
         </div>
 

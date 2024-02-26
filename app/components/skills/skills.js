@@ -13,8 +13,8 @@ const Skills = () => {
         <p>
           Driven by an entrepreneurial passion for innovation, I specialize in
           full-stack development with a focus on architecting and building
-          large-scale web and smartphone applications that align closely with
-          business requirements and goals
+          large-scale applications that align closely with business requirements
+          and goals
         </p>
       </div>
 

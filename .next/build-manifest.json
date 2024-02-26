@@ -25,11 +25,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/allProjectsPage": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/allProjectsPage.js"
-    ],
     "/projects/[projectId]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

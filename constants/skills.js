@@ -7,7 +7,7 @@ let allSkills = [
     title: "Mobile Development",
     icon: MobileDevIcon,
     description:
-      "When it comes to mobile apps, I'm your go-to for seamless, cross-platform experiences. React Native and Flutter are my magic wands, crafting apps that not only feel native on any OS but also dazzle users with their responsiveness and intuitive design. With Firestore and Firebase in my arsenal, I ensure that both the development process and user experience are top-notch, integrating real-time data syncing and robust backend services effortlessly",
+      "When it comes to mobile apps, I'm your go-to for seamless, cross-platform experiences. React Native and Flutter are my magic wands, crafting apps that not only feel native on any OS but also dazzle users with their responsiveness and intuitive design. With Firebase, Node.js, and MySQL in my arsenal, I ensure that both the development process and user experience are top-notch, integrating real-time data syncing and robust backend services effortlessly",
     tech: [
       "/icons/atom.png",
       "/icons/js.png",
@@ -21,7 +21,7 @@ let allSkills = [
     title: "Web Development",
     icon: WebDevIcon,
     description:
-      "In the world of web development, I love blending the art of frontend with the complexities of backend. React and Next.js are my go-tos for crafting interactive and modern interfaces, spiced up with TypeScript and JavaScript. To complement this, I leverage Node.js for robust server-side operations and integrate GraphQL and MongoDB for enhanced scalability and data flexibility",
+      "In the world of web development, I love blending the art of frontend aesthetics with the complexities of backend services. React and Next.js, spiced with JavaScript and TypeScript, are my favorite frameworks for crafting interactive, high-performing, and modern interfaces. To complement this, I leverage Node.js and Express for robust server-side operations and integrate GraphQL, SQL, and MongoDB for enhanced scalability and data flexibility",
     tech: [
       "/icons/typescript.png",
       "/icons/nextjs-icon-dark-background.png",

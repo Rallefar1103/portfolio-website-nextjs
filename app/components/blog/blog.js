@@ -5,7 +5,7 @@ import allArticles from "../../../constants/all-articles";
 
 const Blog = () => {
   return (
-    <section id="articles" className={styles.blog}>
+    <section id="blog" className={styles.blog}>
       <h2 className={styles.blogHeader}>
         {" "}
         My Tech <span className={styles.blogYellow}>Blog</span>{" "}
